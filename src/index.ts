@@ -40,7 +40,7 @@ const replaceGlobalDomainAndBrand = (text: string): string => {
 }
 
 const getTemplateFile = (templateId: string) => {
-    const data = fs.readFileSync(`./src/template-prototypes/${templateId}.html`, 'utf8');
+    const data = fs.readFileSync(`./src/generic-templates/${templateId}.html`, 'utf8');
     return data;
 };
 
