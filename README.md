@@ -1,1 +1,1 @@
-# email-template-generator
+Dynamic email template generator with localization support
